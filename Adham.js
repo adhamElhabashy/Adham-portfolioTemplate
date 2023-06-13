@@ -2,10 +2,8 @@
 //===========================how to make button (scroll to top)=================================
 //                          |----------------------------------|
 let span = document.querySelector(".btn");
-console.log(span);
 window.onscroll = function () {
   if (window.scrollY >= 600) {
-    console.log("adham");
     span.style.cssText = "opacity: 1;";
   } else {
     span.style.cssText = "opacity: 0;;";
@@ -19,12 +17,9 @@ function scrollToTop() {
   });
 }
 span.addEventListener("click", scrollToTop);
-// solution
-// make function to know number of scrolling
 
 // make the event to scroll
-let countdown = new Date("dec 31,2023 23:59:59").getTime();
-console.log(countdown);
+let countdown = new Date("dec 31,2024 23:59:59").getTime();
 let counter = setInterval(() => {
   let dateNow = new Date().getTime();
   let time = countdown - dateNow;
