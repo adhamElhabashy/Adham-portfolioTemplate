@@ -1,4 +1,4 @@
-# Adham-portfolioTemplate
+# Adham - Portfolio Template
 ## Overview
 This project is a portfolio template that can be used to show your work. It was created using Html, Css, and Javascript.
 ## Features
